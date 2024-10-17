@@ -1,0 +1,19 @@
+.login-overlay {
+    position: fixed; /* Or absolute, depending on your layout */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the login form */
+    z-index: 1000; /* Ensure it's on top of other elements */
+  }
+  
+  .content {
+    position: relative; /* To ensure content remains below the overlay */
+  }
+  body{
+    background-color: black;
+  }

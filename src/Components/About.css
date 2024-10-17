@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+.text
+{
+    width: 50%;
+    height: 500px;
+    align-items: center;
+
+}
+#one
+{
+    font-size: 100px;
+    color: orange;
+}
+#two{
+    font-size: 80px;
+    color: orangered;
+}

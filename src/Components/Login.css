@@ -1,0 +1,17 @@
+.app-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .app {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Optional: maximum width for larger screens */
+    padding: 0 20px; /* Optional: add padding on the sides */
+  }

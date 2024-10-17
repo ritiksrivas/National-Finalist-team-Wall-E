@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Align children vertically */
+    min-height: 100vh; /* Ensure full height of the viewport */
+  }
+  
+  .header {
+    background:linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+    flex: 1; /* Allow header to grow and take up available space */
+  }
+  .lineSpacing{
+    line-height: 20px;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+  }
+  
+  .social-icons {
+    margin: 20px 0;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .footer {
+
+
+    text-align: center;
+    padding: 10px 20px;
+    position: relative; /* Change to relative */
+  }
+  
+  .footer a {
+    color: #00f;
+    text-decoration: none;
+  }
+  
+  .footer .links {
+    margin-top: 10px;
+  }
+  
+  .footer .links a {
+    margin: 0 10px;
+    color: #fff;
+  }
+  .vertical-divider {
+    display: inline-block;
+    width: 2px; /* Width of the divider */
+    height: 20px; /* Height of the divider */
+    background-color: black; /* Color of the divider */
+    
+  }
